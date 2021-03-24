@@ -4,7 +4,7 @@
 O serie de probleme folosind algoritmi cunoscuti de grafuri
 
 
-- Problema P1
+#### IMPLEMENTARE PROBLEMA P1
 
 Aceasta problema presupune gasirea de orase ce trebuie inchise pentru a-l
 proteja pe Robin Hood. 
@@ -25,7 +25,7 @@ Complexitate:
         O(n*m)
 
 
-- Problema P2
+#### IMPLEMENTARE PROBLEMA P2
 
 Aceasta problema presupune gasirea drumului optim pentru care Robin Hood 
 depune cel mai putin efort. Aceasta este o problema de drum minim punct
@@ -42,7 +42,7 @@ Complexitate:
         -complexitatea vine de la Bellman Ford 
 
 
-- Problema P3
+#### IMPLEMENTARE PROBLEMA P3
 
 Aceasta problema presupune gasirea unui drum optim astfel incat Robin Hood 
 sa ramana cu energie cat mai mare. Avand in vedere ca procentele date sunt
@@ -62,7 +62,7 @@ Complexitate:
         O(n^2) - grafuri dense
         -complexitatea vine de la Dijkstra
 
-- Mentiuni
+#### Mentiuni
 
 Am folosit scheletul de cod pus la dispozitie de echipa de PA pentru algoritmul
 Dijkstra si parti din DFS. Bellman-Ford optimizat a fost luat din pseudocodul
