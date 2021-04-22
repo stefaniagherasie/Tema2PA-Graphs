@@ -20,10 +20,8 @@ un nod blocat anterior, nu se mai explora pentru a simula ca acesta are toate
 muchiile adiacente blocate. Cand se iesea cu succes din parcurgere, se atingea
 numarul minim de noduri care trebuiau inchise.
 
-Complexitate: 
-        
-        O(n*m)
-
+**Complexitate**: `O(n*m)`
+<br>
 
 #### IMPLEMENTARE PROBLEMA P2
 
@@ -32,35 +30,31 @@ depune cel mai putin efort. Aceasta este o problema de drum minim punct
 la punct.
 
 Avand in vedere ca drumurile pot avea si costuri negative, s-a folosit
-algoritmul Bellman-Ford, putin optimizat. S-a calculat distanta de la nodul
+algoritmul `Bellman-Ford`, putin optimizat. S-a calculat distanta de la nodul
 sursa la toate celelalte noduri din graf si s-a afisat distanta corespunzatoare
 nodului destinatie.
 
-Complexitate: 	
-        
-        O(n^2)
-        -complexitatea vine de la Bellman Ford 
-
+**Complexitate** (complexitatea vine de la Bellman Ford):  `O(n^2)` 
+<br>
 
 #### IMPLEMENTARE PROBLEMA P3
 
 Aceasta problema presupune gasirea unui drum optim astfel incat Robin Hood 
 sa ramana cu energie cat mai mare. Avand in vedere ca procentele date sunt
-strict pozitive, am folosit algoritmul Dijkstra pentru drumuri minime.
+strict pozitive, am folosit algoritmul `Dijkstra` pentru drumuri minime.
 
 S-a calculat distanta cea mai mica mergand pe principiul ca procentele trebuie
 sa fie cat mai mici pentru ca energia finala sa fie cat mai mare. S-a tinut
 in vectorul de parinti succesiunea parcurgerii.
-
-Apoi, se transfera in ArrayList-ul foundWay calea drumului optim, calculandu-se
+<br>
+Apoi, se transfera in ArrayList-ul `foundWay` calea drumului optim, calculandu-se
 si procentul de energie ramas dupa formula din enunt, afisandu-se energia 
 ramasa si calea.
 
-Complexitate: 	
-        
-        O(n*logn) - grafuri rare
-        O(n^2) - grafuri dense
-        -complexitatea vine de la Dijkstra
+**Complexitate** (complexitatea vine de la Dijkstra)
+- `O(n*logn)` - grafuri rare
+- `O(n^2)` - grafuri dense
+<br>        
 
 #### Mentiuni
 
