@@ -56,7 +56,7 @@ ramasa si calea.
 - `O(n^2)` - grafuri dense
 <br>        
 
-#### MENTIUNI
+## Mentiuni
 
 Am folosit scheletul de cod pus la dispozitie de echipa de PA pentru algoritmul
 Dijkstra si parti din DFS. Bellman-Ford optimizat a fost luat din pseudocodul
