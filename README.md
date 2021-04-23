@@ -4,7 +4,7 @@
 O serie de probleme folosind algoritmi cunoscuti de grafuri
 
 
-#### ᐅ IMPLEMENTARE PROBLEMA P1
+## Implementare Problema 1
 
 Aceasta problema presupune gasirea de orase ce trebuie inchise pentru a-l
 proteja pe Robin Hood. 
@@ -23,7 +23,7 @@ numarul minim de noduri care trebuiau inchise.
 **Complexitate**: `O(n*m)`
 <br><br>
 
-#### ᐅ IMPLEMENTARE PROBLEMA P2
+## Implementare Problema 2
 
 Aceasta problema presupune gasirea drumului optim pentru care Robin Hood 
 depune cel mai putin efort. Aceasta este o problema de drum minim punct
@@ -37,7 +37,7 @@ nodului destinatie.
 **Complexitate** (complexitatea vine de la Bellman Ford):  `O(n^2)` 
 <br><br>
 
-#### ᐅ IMPLEMENTARE PROBLEMA P3
+## Implementare Problema 3
 
 Aceasta problema presupune gasirea unui drum optim astfel incat Robin Hood 
 sa ramana cu energie cat mai mare. Avand in vedere ca procentele date sunt
